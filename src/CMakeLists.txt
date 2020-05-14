@@ -2,7 +2,7 @@ option(CPP_AGORITHMIC_TOOLBOX "Enable compilation of Algorithmic Toolbox" ON)
 
 
 # Algorithmic Toolbox
-if(CPP_STARTECPP_AGORITHMIC_TOOLBOXR_USE_SDL)
+if(CPP_AGORITHMIC_TOOLBOX)
   message("Using Algorithmic Toolbox")
   add_subdirectory(algorithmic_toolbox)
 endif()
