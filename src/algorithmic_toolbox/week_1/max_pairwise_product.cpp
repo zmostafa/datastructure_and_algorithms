@@ -9,10 +9,10 @@ int64_t MaxPairwiseProduct(std::vector<int>& numbers) {
 }
 
 int main() {
-    int n;
+    std::vector<int>::size_type n;
     std::cin >> n;
     std::vector<int> numbers(n);
-    for (int i = 0; i < n; ++i) {
+    for (std::vector<int>::size_type i = 0; i < n; ++i) {
         std::cin >> numbers[i];
     }
 
