@@ -76,15 +76,15 @@ if(ENABLE_TESTING)
   message(
     "Building Tests. Be sure to check out test/constexpr_tests for constexpr testing"
   )
-  add_subdirectory(test)
+  # add_subdirectory(test)
 endif()
 
-if(ENABLE_FUZZING)
-  message(
-    "Building Fuzz Tests, using fuzzing sanitizer https://www.llvm.org/docs/LibFuzzer.html"
-  )
-  add_subdirectory(fuzz_test)
-endif()
+# if(ENABLE_FUZZING)
+#   message(
+#     "Building Fuzz Tests, using fuzzing sanitizer https://www.llvm.org/docs/LibFuzzer.html"
+#   )
+#   add_subdirectory(fuzz_test)
+# endif()
 
 
 add_subdirectory(src)

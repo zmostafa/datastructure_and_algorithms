@@ -1,6 +1,5 @@
 #include <iostream>
-#include <vector>
-#include <algorithm>
+#include "max_pairwise_product.hpp"
 
 int64_t MaxPairwiseProduct(std::vector<int>& numbers) {
 
