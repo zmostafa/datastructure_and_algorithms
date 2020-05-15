@@ -5,7 +5,7 @@ int64_t MaxPairwiseProduct(std::vector<int>& numbers) {
 
     std::sort(numbers.begin(), numbers.end());
 
-    return (int64_t) numbers.end()[-1] *  (int64_t) numbers.end()[-2];
+    return static_cast<int64_t> (numbers.end()[-1]) *  static_cast<int64_t> (numbers.end()[-2]);
 }
 
 int main() {
